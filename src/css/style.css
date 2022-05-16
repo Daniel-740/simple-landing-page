@@ -2,6 +2,8 @@
     --primary-font: Georgia,"Times New Roman",Times,serif;
 }
 
+
+
 .section1{
     background-image: url(../img/background-01.jpg);
     background-size: cover;
@@ -61,7 +63,8 @@
     font-weight: 300 !important;
 }
 .section2{
-    height: 700px;
+    height: auto;
+    padding-bottom: 65px;
 }
 .boxAbout{
     display: grid;
@@ -73,8 +76,9 @@
     border: 1px solid rgba(19, 18, 18, 0.2);
 }
 .section3{
-    height: 180px;
+    height: auto;
     background-color: rgba(153, 153, 153, 0.3);
+    padding: 55px 0;
 }
 .title-sec3{
     color: rgb(207, 32, 32);
@@ -167,4 +171,34 @@
     height: 70px;
     padding: 0;
     background-color: #010101;
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px){
+    .container--tablet{
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .flex--column{
+        display: flex;
+        flex-direction: column!important;
+    }
+
+    .flex--center{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxSec3{
+        margin: 15px 0
+    }
+
+    .margin__right--none{
+        margin-right: 0 !important;
+    }
+
+    .gallery__img{
+        height: 250px;
+        width: 250px;
+    }
 }

@@ -16,7 +16,7 @@
     <section class="section1">
       <div class="wrapper-home">
         <header class="header">
-          <article class="container is-max-desktop">
+          <article class="container container--tablet is-max-desktop">
             <nav class="nav is-flex is-justify-content-space-between is-align-items-center">
               <a href="#" class="logo-link"><p class="title has-text-white">LOGO</p></a>
               <ul class="ul">
@@ -29,7 +29,7 @@
           </article>
         </header>
 
-        <article class="container is-max-desktop is-flex is-flex-direction-column is-justify-content-center boxHome">
+        <article class="container container--tablet is-max-desktop is-flex is-flex-direction-column is-justify-content-center boxHome">
             <h3 class="title is-5 has-text-white mt-6">RHONCUS INTEGER SODALES HENDRERIT</h3>
             <h1 class="title is-2 has-text-white">NULLA QUIS TINCIDUNT</h1>
 
@@ -43,7 +43,7 @@
       </div>
     </section>
 
-    <section class="section2 container is-max-desktop pt-5 is-flex is-flex-direction-column is-align-items-center">
+    <section class="section2 container container--tablet is-max-desktop pt-5 is-flex is-flex-direction-column is-align-items-center">
         <article class="is-flex is-flex-direction-column is-align-items-center mb-6">
             <h2 class="title is-4 mt-6 mb-2 fontWeight">AMET ODIO VITAE CONDIMENTUM</h2>
             <p class="title is-6 ">Elit aenean at iaculis enim ac odio proin varius</p>
@@ -75,26 +75,33 @@
     </section>
 
     <section class="section3 ">
-        <div class="container is-max-desktop is-flex is-align-items-center fullheight">
-            <article class="is-flex mx-3 boxSec3">
-                <i class="fa fa-language fa-3x mr-5 iconSec3"></i>
-                <div class="">
+        <div class="container is-max-desktop is-flex is-align-items-center fullheight flex--column">
+            <article class="is-flex mx-3 boxSec3 flex--column flex--center">
+                <div class="aboutUs__boxIcon">
+                  <i class="fa fa-language fa-3x mr-5 margin__right--none iconSec3"></i>
+                </div>   
+                <div class="flex--column flex--center">
                     <h2 class=" mb-3 fontWeight title-sec3">PURUS PORTA MAECENAS</h2>
-                    <p class="para-sec3">Vitae lorem id diam aliquet semper a ac leo curabitur dictum orci et libero…</p>
+                    <p class="para-sec3 p-0">Vitae lorem id diam aliquet semper a ac leo curabitur dictum orci et libero…</p>
                 </div>
             </article>
-            <article class="is-flex mx-3 boxSec3">
-                <i class="fa fa-balance-scale fa-3x mr-5 iconSec3"></i>
-                <div>
+            <article class="is-flex mx-3 boxSec3 flex--column flex--center">
+                <div class="aboutUs__boxIcon">
+                  <i class="fa fa-balance-scale fa-3x mr-5 margin__right--none iconSec3"></i>
+                </div>
+                <div class="flex--column flex--center">
                     <h2 class="mb-3 fontWeight title-sec3">RUTRUM BLANDIT DONEC</h2>
-                    <p class="para-sec3">Eget commodo justo curabitur dictum vestibulum purus id facilisis fusce…</p>
+                    <p class="para-sec3 p-0">Eget commodo justo curabitur dictum vestibulum purus id facilisis fusce…</p>
                 </div>
             </article>
-            <article class="is-flex mx-3 boxSec3">
-                <i class="fa fa-map-signs fa-3x mr-5 iconSec3"></i>
-                <div>
+            <article class="is-flex mx-3 boxSec3 flex--column flex--center">
+              <div class="aboutUs__boxIcon">
+                <i class="fa fa-map-signs fa-3x mr-5 margin__right--none iconSec3"></i>
+              </div>
+                
+                <div class="flex--column flex--center">
                     <h2 class="mb-3 fontWeight title-sec3">NIBH TINCIDUNT PRETIUM</h2>
-                    <p class="para-sec3">Nisi molestie vel cras velit metus molestie at vehicula ut auctor at turpis nunc…</p>
+                    <p class="para-sec3 p-0">Nisi molestie vel cras velit metus molestie at vehicula ut auctor at turpis nunc…</p>
                 </div>
             </article>
         </div>
@@ -103,7 +110,7 @@
         <h2 class="title is-4 mb-2 fontWeight">TURPIS EX SOLLICITUDIN</h2>
         <p class="title is-6 ">Finibus ultrices vitae mattis vestibulum ipsum curabitur</p>
 
-        <article class="gallery mt-6 is-flex is-flex-wrap-wrap">
+        <article class="gallery mt-6 is-flex is-flex-wrap-wrap flex--center">
             <img src="./src/img/gallery/gallery-01.jpg" alt="Fogato 01" class="gallery__img image">
             <img src="./src/img/gallery/gallery-02.jpg" alt="Fogato 02" class="gallery__img image">
             <img src="./src/img/gallery/gallery-03.jpg" alt="Fogato 03" class="gallery__img image">
@@ -126,7 +133,7 @@
         </div>
     </section>
 
-    <section class="section6 container is-max-desktop is-flex is-flex-direction-column">
+    <section class="section6 container container--tablet is-max-desktop is-flex is-flex-direction-column">
         <h2 class="title is-4 fontWeight has-text-centered mb-2">QUAM DAPIBUS ID DONEC</h2>
         <p class="has-text-centered title is-6">Nec semper mi ut dui eros praesent id rutrum nisl duis</p>
         <article class="boxForm">
